@@ -17,7 +17,7 @@ class Book(BaseModel):
     page_count: int
     language: str
     created_at: datetime
-    update_at: datetime
+    updated_at: datetime
 
 
 class BookDetailModel(Book):
